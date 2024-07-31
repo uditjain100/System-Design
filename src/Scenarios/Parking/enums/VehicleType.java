@@ -1,0 +1,15 @@
+package Scenarios.Parking.enums;
+
+public enum VehicleType {
+
+    TWO_WHEELER_SMALL,
+    TWO_WHEELER_MEDIUM,
+    TWO_WHEELER_LARGE,
+    THREE_WHEELER_SMALL,
+    THREE_WHEELER_MEDIUM,
+    THREE_WHEELER_LARGE,
+    FOUR_WHEELER_SMALL,
+    FOUR_WHEELER_MEDIUM,
+    FOUR_WHEELER_LARGE;
+
+}
