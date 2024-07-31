@@ -51,8 +51,8 @@ public class Game {
             if (symbol == null)
                 continue;
             for (int j = 1; j < n; j++) {
-                if(Utilities.board[0][i].symbolType == null) break;
-                if(Utilities.board[0][i].symbolType == )
+                if (Utilities.board[0][i].symbolType == null)
+                    break;
             }
         }
 
