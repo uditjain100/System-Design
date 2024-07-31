@@ -36,6 +36,7 @@ public class Game {
     public void start() {
         int n = Utilities.BOARD_SIZE;
 
+        Scanner scanner = new Scanner(System.in);
         boolean gameOver = false;
         while (!gameOver) {
 
@@ -44,7 +45,6 @@ public class Game {
 
             System.out.println(currentPlayer.getPlayerId() + " turn - ");
 
-            Scanner scanner = new Scanner(System.in);
             System.out.println("Enter the row number - ");
             int row = scanner.nextInt();
             while (row < 0 || row > n - 1) {
@@ -78,6 +78,7 @@ public class Game {
 
             turn.addLast(currentPlayer);
         }
+        scanner.close();
 
         if (isMatchTie())
             System.out.println("Match Tie!");
